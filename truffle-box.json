@@ -1,0 +1,14 @@
+{
+  "ignore": [
+    "README.md"
+  ],
+  "commands": [
+    "Compile": "truffle compile",
+    "Test": "npm test",
+    "Launch Deploy DApp": "cd vapp; npm run serve",
+    "Build Deploy DApp": "cd vapp; npm run build"
+  ],
+  "hooks": {
+    "post-unpack": "npm install && cd vapp && npm install && cd .."
+  }
+}
