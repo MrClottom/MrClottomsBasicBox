@@ -8,7 +8,8 @@
     "contract": "readonly",
     "it": "readonly",
     "artifacts": "readonly",
-    "describe": "readonly"
+    "describe": "readonly",
+    "web3": "readonly"
   },
   "extends": "eslint:recommended",
   "parserOptions": {
